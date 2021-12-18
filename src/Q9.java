@@ -115,7 +115,7 @@ public class Q9 {
                 break;
             case SURPRISING_ROUTE:
                 Random random=new Random();
-                turnCount= random.nextInt(30)+5;
+                turnCount= random.nextInt(21)+5;
                 break;
         }
         return turnCount;
